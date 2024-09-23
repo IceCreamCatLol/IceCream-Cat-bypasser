@@ -245,6 +245,7 @@ local function ITMKZL_fake_script() -- send.LocalScript
 		["n"] = "ŋ",
 		["m"] = "м",
 		["u"] = "ų",
+		["o"] = "0",
 	}
 	
 	button.MouseButton1Click:Connect(function()
