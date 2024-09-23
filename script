@@ -226,7 +226,6 @@ local function ITMKZL_fake_script() -- send.LocalScript
 	local button = script.Parent
 	local message = ""
 	
-	-- Таблица для замены букв. 
 	local replacementTable = {
 		["a"] = "а",
 		["b"] = "b",
@@ -246,7 +245,6 @@ local function ITMKZL_fake_script() -- send.LocalScript
 		["n"] = "ŋ",
 		["m"] = "м",
 		["u"] = "ų",
-		-- Добавьте сюда больше замен, если нужно
 	}
 	
 	button.MouseButton1Click:Connect(function()
@@ -318,7 +316,6 @@ local function VSUNAIS_fake_script() -- send2.LocalScript
 		["v"] = "v",
 		["n"] = "ŋ",
 		["m"] = "м",
-		-- Добавьте сюда больше замен, если нужно
 	}
 	
 	button.MouseButton1Click:Connect(function()
