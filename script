@@ -245,6 +245,7 @@ local function ITMKZL_fake_script() -- send.LocalScript
 		["v"] = "v",
 		["n"] = "ŋ",
 		["m"] = "м",
+		["u"] = "ų",
 		-- Добавьте сюда больше замен, если нужно
 	}
 	
