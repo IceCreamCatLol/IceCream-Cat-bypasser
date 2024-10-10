@@ -298,7 +298,6 @@ local function VSUNAIS_fake_script() -- send2.LocalScript
 	local button = script.Parent
 	local message = ""
 	
-	-- Таблица для замены букв. 
 	local replacementTable = {
 		["a"] = "а",
 		["b"] = "b",
